@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "672337781767",
+    "firebase_url": "https://assesshealth-6ba58.firebaseio.com",
+    "project_id": "assesshealth-6ba58",
+    "storage_bucket": "assesshealth-6ba58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672337781767:android:418c2362696e4ea4ae76a2",
+        "android_client_info": {
+          "package_name": "com.trust.assesshealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672337781767-vge8ril3f7nc6hqg06rqgnv4pa7lp87h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trust.assesshealth",
+            "certificate_hash": "375235cedd7885a717acbaacd77d8b0e98653766"
+          }
+        },
+        {
+          "client_id": "672337781767-u9lpov6qrmocss4rdvrh2ncau3qsh5dd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5Bs4ZM2TVzYAspkXSdfLaa8AK1C5q70I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672337781767-u9lpov6qrmocss4rdvrh2ncau3qsh5dd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

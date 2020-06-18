@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.AddActivity">
+
+    <EditText
+        android:id="@+id/edStdNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:maxLength="9"
+        android:hint="Student Number "
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edStdName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Student Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edStdSurname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Student Surname"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edStdGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Gender"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edKinName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Guardian Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edKinSurname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Guardian Surname"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edKID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:maxLength="13"
+        android:hint="6312036120080"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edKinAddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Home Address"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/edKinPhnNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:maxLength="10"
+        android:hint="Guardian contact number"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="SUBMIT"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnHealthAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="ASSESS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</LinearLayout>
